@@ -1,3 +1,89 @@
-.payers-containers {
-    
+.payers {
+  padding-top: 25px;
+}
+
+.payers .payers_text h1 {
+  text-align: center;
+  margin-top: 0px;
+  text-transform: uppercase;
+}
+.payers .payers_text h1 span {
+  color: #f5973a;
+}
+
+.payers .payers_text hr {
+  width: 241px;
+  margin: 0 auto 25px;
+  border-color: #f5973b;
+}
+
+.payers .row {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  min-width: 900px !important;
+}
+
+.featured-announcement {
+  background: rgba(194, 193, 193, 0.25);
+  text-align: center;
+  padding: 0.75em;
+  padding-block-end: 10px;
+}
+
+.featured-announcement p {
+  margin-bottom: 0px !important;
+}
+
+.quotes {
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.payers .payers_text vl {
+  border-left: 3px solid green;
+  height: 20%;
+  position: absolute;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.payers .payers_text p {
+  font-size: 19px;
+  font-weight: 300;
+  line-height: 33px;
+  margin-bottom: 30px;
+  text-shadow: 0px 0px 0px;
+  font-family: "Lato", sans-serif !important;
+}
+
+p {
+  margin: 0 0 10px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+body {
+  color: #333;
+  font-family: "Lato", sans-serif !important;
+}
+
+.iframe-container {
+  width: "100vw !important";
+  height: "100vh !important";
+}
+
+.btn-primary {
+  background-color: #14e001 !important;
+  border-color: #14e001 !important;
 }

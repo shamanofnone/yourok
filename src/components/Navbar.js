@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from 'react';
-import { Button } from './Button';
-import { Link } from 'react-router-dom';
-import './Navbar.css';
-import Dropdown from './Dropdown';
+import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+import "./Navbar.css";
+import Dropdown from "./Dropdown";
+import TopNav from "./TopNav";
 
 function Navbar() {
   const [click, setClick] = useState(false);
-  const [button, setButton] = useState(true);
+  // const [button, setButton] = useState(true);
   const [dropdown, setDropdown] = useState(false);
 
   const handleClick = () => setClick(!click);
@@ -27,89 +27,64 @@ function Navbar() {
       setDropdown(false);
     }
   };
-  const showButton = () => {
-    if (window.innerWidth < 960) {
-      setButton(false);
-    } else {
-      setButton(true);
-    }
-  };
-
-  useEffect(() => {
-    showButton();
-  }, []);
-
-  window.addEventListener('resize', showButton);
 
   return (
-    <>
-      <nav className='navbar'>
-        <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            YouROK
-            <i className='fab fa-typo3' />
-          </Link>
-          <div className='menu-icon' onClick={handleClick}>
-            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
-          </div>
-          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-          <li className='nav-item'>
-              <Link
-                to='/'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
+    <div className="navbar-collapse">
+      <nav className="navbar">
+        <div className="navbar-container">
+          <img src="images/logo.png" className="app-logo" alt="logo" />
+
+          <ul className={click ? "nav-menu active" : "nav-menu"}>
+            <li className="nav-item-1">
+              <Link to="/" className="nav-links-1" onClick={closeMobileMenu}>
                 Home
-              </Link>
+                </Link>
             </li>
-            <li 
-              className='nav-item'
+            <li
+              className="nav-item-1"
               onMouseEnter={onMouseEnter}
               onMouseLeave={onMouseLeave}
             >
-              <Link to='/solutions' className='nav-links' onClick={closeMobileMenu}>
-                Solutions <i className='fas fa-caret-down' />
+              <Link
+                to="/solutions"
+                className="nav-links-1"
+                onClick={closeMobileMenu}
+              >
+                Solutions <i className="fas fa-caret-down" />
               </Link>
               {dropdown && <Dropdown />}
             </li>
-            <li className='nav-item'>
+            <li className="nav-item-1">
               <Link
-                to='/science'
-                className='nav-links'
+                to="/kbrofeatures"
+                className="nav-links-1"
+                onClick={closeMobileMenu}
+              >
+                K'Bro Features
+                </Link>
+            </li>
+            <li className="nav-item-1">
+              <Link
+                to="/science"
+                className="nav-links-1"
                 onClick={closeMobileMenu}
               >
                 Science
-              </Link>
+                </Link>
             </li>
-            <li className='nav-item'>
+            <li className="nav-item-1">
               <Link
-                to='/about'
-                className='nav-links'
+                to="/about"
+                className="nav-links-1"
                 onClick={closeMobileMenu}
               >
                 About
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link to='/contact' className='nav-links' onClick= {closeMobileMenu}>
-                Contact
-              </Link>
-            </li>
-
-            <li>
-              <Link
-                to='/sign-up'
-                className='nav-links-mobile'
-                onClick={closeMobileMenu}
-              >
-                Sign Up
-              </Link>
+                </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
         </div>
       </nav>
-    </>
+    </div>
   );
 }
 

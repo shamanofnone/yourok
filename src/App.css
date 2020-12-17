@@ -6,11 +6,6 @@
   }
   
   .home,
-  .solutions,
-  .payers,
-  .schools,
-  .science,
-  .contact,
   .sign-up {
     display: flex;
     height: 90vh;
@@ -27,13 +22,6 @@
     font-size: 100px;
   }
   
-  .solutions {
-    background-position: center;
-    background-size: fill;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
   .contact {
     background-position: center;
     background-size: fill;

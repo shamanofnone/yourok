@@ -1,0 +1,127 @@
+.parents {
+  padding-top: 25px;
+}
+
+.parents .parents_text h1 {
+  text-align: center;
+  margin-top: 0px;
+  text-transform: uppercase;
+}
+.parents .parents_text h2 {
+  text-align: center;
+  margin-top: 0px;
+  text-transform: uppercase;
+}
+.parents .parents_text h4 {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-weight: 600 !important;
+  font-size: 25px;
+}
+.parents .parents_text h1 span {
+  color: #f5973a;
+}
+
+.parents .parents_text hr {
+  width: 150px;
+  margin: 0 auto 25px;
+  border-color: #f5973b;
+}
+
+.parents .parents_text p {
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 33px;
+  margin-bottom: 10px;
+  text-shadow: 0px 0px 0px;
+  font-family: "Lato", sans-serif !important;
+}
+
+.quote {
+  text-align: left;
+  margin-left: 130px;
+  margin-top: 50px;
+}
+
+.parents .parents_text vl {
+  border-left: 3px solid green;
+  height: 80px;
+  position: absolute;
+  margin-left: 45px;
+  margin-right: 0px;
+}
+
+p {
+  margin: 0 0 10px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+body {
+  color: #333;
+  font-family: "Lato", sans-serif !important;
+}
+
+.panel {
+  border: 1px solid #eea236;
+  border-radius: 0;
+  transition: box-shadow 0.5s;
+  width: 250px;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+  background-color: #f3f2f0;
+}
+
+.panel:hover {
+  box-shadow: 5px 0px 40px rgba(0, 0, 0, 0.2);
+}
+
+.panel-footer .btn:hover {
+  border: 1px solid #eea236 !important;
+  background-color: #eea236 !important;
+  color: #f0ad4e !important;
+}
+
+.panel-heading {
+  color: #fff !important;
+  background-color: #14e001 !important;
+  padding: 25px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.panel-footer h3 {
+  font-size: 32px;
+  color: #14e001;
+}
+
+.panel-footer h4 {
+  color: #aaa;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.btn-warning {
+  color: white !important;
+  border: 1px solid #eea236 !important;
+  background-color: #eea236 !important;
+  font-size: 20px !important;
+  width: 85px;
+}
+
+.panel strong {
+  font-size: 20px;
+}

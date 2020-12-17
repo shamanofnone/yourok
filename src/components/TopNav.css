@@ -1,0 +1,25 @@
+.header_top {
+  background: rgb(0, 0, 0);
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  padding-top: 1em;
+}
+
+.nav-link {
+  padding: 0em 0.5rem !important;
+  color: rgb(190, 184, 184) !important;
+}
+
+.nav-menu {
+  display: grid;
+  grid-gap: 1px !important;
+  grid-template-columns: repeat(6, auto) !important;
+  margin-right: -5rem !important;
+}
+
+a:hover {
+  color: #f5973a !important;
+}

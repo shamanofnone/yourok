@@ -1,0 +1,99 @@
+.features {
+  padding-top: 25px;
+}
+
+.features .features_text {
+  padding-bottom: 50px;
+}
+
+.features .features_text h1 {
+  text-align: center;
+  margin-top: 0px;
+  text-transform: uppercase;
+}
+.features .features_text h1 span {
+  color: #f5973a;
+}
+
+.features .features_text hr {
+  width: 241px;
+  margin: 0 auto 25px;
+  border-color: #f5973b;
+}
+
+.features .features_text p {
+  text-align: center;
+  font-size: 19px;
+  font-weight: 300;
+  line-height: 33px;
+  margin-bottom: 30px;
+  text-shadow: 0px 0px 0px;
+  font-family: "Lato", sans-serif !important;
+}
+
+p {
+  margin: 0 0 10px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+body {
+  color: #333;
+  font-family: "Lato", sans-serif !important;
+}
+
+.features .img_text p {
+  padding-top: 15px;
+  text-align: left;
+  font-size: 19px;
+  font-weight: 300;
+  line-height: 33px;
+  margin-bottom: 30px;
+  text-shadow: 0px 0px 0px;
+  font-family: "Lato", sans-serif !important;
+  padding-right: 20px;
+}
+
+.features .card-deck {
+  padding-top: 60px;
+  padding-right: 0px;
+  padding-bottom: 80px;
+  padding-left: 0px;
+}
+
+.card-footer {
+  background-color: rgb(236, 142, 33) !important;
+  font-size: 19px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.card-img-top {
+  padding-bottom: 5px !important;
+}
+
+.card-title {
+  text-transform: uppercase;
+  font-size: 24px !important;
+  font-family: "Lato", sans-serif;
+  font-weight: 550 !important;
+  align-items: center;
+  margin-bottom: 50px !important;
+}
+
+.features .card-body {
+  background-color: #f3f2f0;
+  height: 60px !important;
+  padding-bottom: 20px;
+}

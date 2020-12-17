@@ -1,0 +1,79 @@
+.privacy {
+  padding-top: 50px;
+}
+
+.privacy .privacy_text h1 {
+  text-align: center;
+  margin-top: 0px;
+  text-transform: uppercase;
+  color: #f59739;
+}
+
+.privacy .privacy_text h2 {
+  text-align: center;
+  margin-top: 0px;
+  text-transform: uppercase;
+  color: #f59739;
+}
+
+.privacy .privacy_text h4 {
+  margin-top: 0px;
+  text-transform: none;
+  color: #48c709;
+  font-size: 24px;
+  font-family: "Lato", sans-serif !important;
+}
+
+.privacy .privacy_text h1 span {
+  color: #f5973a;
+}
+
+.privacy .privacy_text hr {
+  width: 241px;
+  margin: 0 auto 25px;
+  border-color: #f5973b;
+}
+
+.quote {
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.privacy .privacy_text vl {
+  border-left: 3px solid rgb(226, 101, 17);
+  height: 175px;
+  position: absolute;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.privacy .privacy_text p {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.4;
+  margin-bottom: 20px;
+  text-shadow: 0px 0px 0px;
+  font-family: "Lato", sans-serif !important;
+}
+
+p {
+  margin: 0 0 10px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+body {
+  color: #333;
+  font-family: "Lato", sans-serif !important;
+}

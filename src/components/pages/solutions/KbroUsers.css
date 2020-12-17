@@ -1,0 +1,76 @@
+.users {
+  padding-top: 25px;
+}
+
+.users .users_text h1 {
+  text-align: center;
+  margin-top: 0px;
+  text-transform: uppercase;
+}
+.users .users_text h1 span {
+  color: #f5973a;
+}
+
+.users .users_text hr {
+  width: 241px;
+  margin: 0 auto 25px;
+  border-color: #f5973b;
+}
+
+.quotes {
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.users .users_text vl {
+  border-left: 3px solid green;
+  height: 190px;
+  position: absolute;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.users .users_text p {
+  font-size: 19px;
+  font-weight: 300;
+  line-height: 33px;
+  margin-bottom: 20px;
+  text-shadow: 0px 0px 0px;
+  font-family: "Lato", sans-serif !important;
+}
+
+p {
+  margin: 0 0 10px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+body {
+  color: #333;
+  font-family: "Lato", sans-serif !important;
+}
+.users .img_text p {
+  padding-top: 5px;
+  text-align: left;
+  font-size: 19px;
+  font-weight: 300;
+  line-height: 33px;
+  margin-bottom: 10px;
+  text-shadow: 0px 0px 0px;
+  font-family: "Lato", sans-serif !important;
+}
+
+.container {
+  max-width: 1380px !important;
+}
